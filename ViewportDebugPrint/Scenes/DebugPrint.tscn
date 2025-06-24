@@ -1,0 +1,19 @@
+[gd_scene load_steps=0 format=3 uid="uid://b5nr1yt7kno0d"]
+
+[node name="DebugPrint" type="RichTextLabel"]
+custom_minimum_size = Vector2(100, 0)
+offset_right = 172.0
+offset_bottom = 23.0
+size_flags_horizontal = 3
+size_flags_vertical = 0
+bbcode_enabled = true
+text = "Hello Worldasdasdasd"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+vertical_alignment = 2
+
+[node name="VisibleTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+wait_time = 5.0
+one_shot = true

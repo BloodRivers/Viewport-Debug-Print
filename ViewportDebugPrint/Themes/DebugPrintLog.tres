@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://6k617i2lc3ef"]
+
+[ext_resource type="FontFile" uid="uid://pta14b8rk3u2" path="res://addons/ViewportDebugPrint/Fonts/Consola.ttf" id="1_sa2ob"]
+
+[resource]
+RichTextLabel/colors/default_color = Color(0, 0.666667, 1, 1)
+RichTextLabel/colors/font_shadow_color = Color(0, 0.133333, 0.2, 1)
+RichTextLabel/fonts/normal_font = ExtResource("1_sa2ob")
